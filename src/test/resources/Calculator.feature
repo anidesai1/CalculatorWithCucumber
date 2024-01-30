@@ -12,3 +12,8 @@ Feature: Calculator
     Given I have a calculator
     When I subtract 5 from 7
     Then the result should be 2
+
+  Scenario: Using floating point numbers and Strings
+    Given "pi" has a value of 3.14159
+    Given "e" has a value of and 2.71828
+    Then We know which one is bigger!
